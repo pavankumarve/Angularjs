@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+  background-color: rgb(97, 71, 243);
+  min-height: 10vh;
+}
+a {
+  color: white;
+  //   background-color: rgb(97, 71, 243);
+  padding: 1% 2% 1% 2%;
+  text-decoration: none;
+}
+.active:hover {
+  color: blue;
+  background: white;
+}
+.active {
+  color: blue;
+  background: white;
+}
